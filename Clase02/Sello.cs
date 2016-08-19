@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clase02
+namespace SelloName
 {
     class Sello
     {
@@ -14,7 +14,7 @@ namespace Clase02
         static string ArmarFormatoMensaje()
         {
             string bar = new String('*', Sello.mensaje.Length + 2 );
-            string cadena = bar + "\n" + "*" + Sello.mensaje + "*\n" + bar;
+            string cadena = bar + "\n" + "*" + Sello.mensaje + "*\n" + bar + "\n";
             return cadena;
         }
 
@@ -27,14 +27,26 @@ namespace Clase02
         {
             ConsoleColor colorAnterior = Console.ForegroundColor;
             Console.ForegroundColor = Sello.color;
-            Console.WriteLine(Sello.mensaje);
+            Console.WriteLine(Sello.ArmarFormatoMensaje());
             Console.ForegroundColor = colorAnterior;
         }
 
-        public static string Imprimir()
+        public static void Imprimir()
         {
-            return Sello.ArmarFormatoMensaje();
+            Console.WriteLine(Sello.ArmarFormatoMensaje());
         }
+
+        public static bool TryParse(string m, out string ret)
+        {
+            if (string.IsNullOrEmpty(m))
+            {
+                ret = null;
+                return false;
+            }
+            ret = m;
+            return true;
+        }
+
 
     }
 }

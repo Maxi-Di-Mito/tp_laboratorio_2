@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SelloName;
 
 namespace Clase02
 {
@@ -10,12 +11,22 @@ namespace Clase02
     {
         static void Main(string[] args)
         {
-            Sello.mensaje = "Hola mundo";
+            string miMensaje;
+            int error = 0;
+            do
+            {
+                if (error == 0)
+                    Console.WriteLine("Ingrese un mensaje");
+                else
+                    Console.WriteLine("Error, ingrese un mensaje valido");
+                miMensaje = Console.ReadLine();
+                error++;
+            } while (!Sello.TryParse(miMensaje, out Sello.mensaje));
 
+            Console.Clear();
             Sello.color = ConsoleColor.Cyan;
             Sello.ImprimirColor();
-
-            Console.WriteLine(Sello.Imprimir());            
+            Sello.Imprimir();
 
             Console.ReadKey();
         }
