@@ -28,11 +28,12 @@ namespace Clase05
             this._tipo = t;            
         }
 
+        
         public static bool operator ==(Tinta t1, Tinta t2)
-        {
+        {            
             return t1._tipo == t2._tipo && t1._color == t2._color;
         }
-
+        
         public static bool operator !=(Tinta t1, Tinta t2)
         {
             return !(t1 == t2);
@@ -46,11 +47,6 @@ namespace Clase05
         override public string ToString()
         {
             return this.Mostrar();
-        }
-
-        override public bool Equals(Tinta t)
-        {
-            return this == t;
         }
 
 

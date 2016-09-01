@@ -39,5 +39,52 @@ namespace Clase05
         }
 
 
+        private string Mostrar()
+        {
+            return "MARCA: " + this._marca + " - TINTA: " + this._tinta + " - CANTIDAD: " + this._cantidad;
+        }
+
+
+        public static implicit operator string(Pluma p)
+        {
+            return p.Mostrar();
+        }
+
+        public static bool operator ==(Pluma p, Tinta t)
+        {
+            return p._tinta == t;
+        }
+
+        public static bool operator !=(Pluma p, Tinta t)
+        {
+            return !(p == t);
+        }
+
+        public static Pluma operator +(Pluma p, Tinta t)
+        {
+            if (p._tinta.Equals(null))
+                p._tinta = t;
+            else if (t == p._tinta)
+                p._cantidad++;
+            else
+                Console.WriteLine("Las tintas son distintas");            
+            return p;
+        }
+
+        public static Pluma operator -(Pluma p, Tinta t)
+        {
+            if (p._tinta.Equals(null))
+                return p;
+            else if (t == p._tinta)
+            {
+                p._cantidad--;
+                if (p._cantidad == 0)
+                    p._tinta = null;
+            }
+            else
+                Console.WriteLine("Las tintas son distintas");
+            return p;
+        }
+
     }
 }
