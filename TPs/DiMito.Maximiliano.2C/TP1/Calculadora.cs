@@ -18,7 +18,7 @@ namespace TP1
             {
                 case "+":
                     result = n1 + n2;
-                    break;
+                break;
                 case "-":
                     result = n1 - n2;
                     break;
