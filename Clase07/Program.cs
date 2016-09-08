@@ -21,13 +21,13 @@ namespace Clase07
                 temperas[i] = new Tempera(colores[i],nombres[i],cantidades[i]);
             }
 
-            foreach (Tempera t in temperas)
+            /*foreach (Tempera t in temperas)
             {
                 Console.WriteLine(t);
-            }
+            }*/
 
             Paleta p = 8;
-            Console.WriteLine(p);
+            Console.WriteLine((string)p);
 
             Console.ReadKey();
         }
