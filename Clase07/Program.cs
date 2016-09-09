@@ -31,7 +31,7 @@ namespace Clase07
             p2 += temperas[4];
 
             p += p2;
-
+            
             p -= temperas[4];
             Console.WriteLine((string)p);
 

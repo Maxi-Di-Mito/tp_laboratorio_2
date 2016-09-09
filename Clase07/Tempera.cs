@@ -15,6 +15,22 @@ namespace Clase07
         private String _marca;
         private SByte _cantidad;
 
+        public float precio { get; set; }
+
+        // propiedades, te encapsulan los set y ç
+        //get haciendo que de afuera no lo veas y le pegues como si fueran atributos publicos
+        public string marca             
+        {
+            get
+            {
+                return this._marca;
+            }
+            set
+            {
+                this._marca = value;
+            }
+        }
+        
         #endregion
 
         #region Constructor

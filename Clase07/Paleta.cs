@@ -10,6 +10,13 @@ namespace Clase07
     {
         private Tempera[] _colores;
         private sbyte _cantidadMaximaColores;
+                
+        public sbyte maximoDeColores
+        {
+            get { return this._cantidadMaximaColores; }            
+        }
+        
+        
 
         private Paleta() : this(4) { }        
 
@@ -112,7 +119,7 @@ namespace Clase07
             return p;
         }
 
-
+        
         private void Compact()
         {
             for (int i = 0; i < this._cantidadMaximaColores-1; i++)
@@ -126,17 +133,15 @@ namespace Clase07
 
 
         private int WhereIsThisTempera(Tempera t)
-        {
-            int i = 0;
-            for ( i = 0; i < this.Ocupados(); i++)
+        {           
+            for (int i = 0; i < this.Ocupados(); i++)
             {
                 if (this._colores[i] == t)
                 {
-                    this._colores[i] = null;
-                    break;
+                    return i;
                 }
             }
-            return i != this._cantidadMaximaColores ? i : -1;
+            return -1;
         }
 
         private int Ocupados()
@@ -145,6 +150,29 @@ namespace Clase07
             for ( i = 0; i < this._cantidadMaximaColores && !Object.Equals(null,this._colores[i]); i++);
             return i;
         }
-        
+
+
+    #region Indexador
+
+        public Tempera this[int index]
+        {
+            set
+            {
+                if (index >= 0 && index < this._cantidadMaximaColores)
+                    this._colores[index] = value;
+
+            }
+            get
+            {
+                if (index >= 0 && index < this._cantidadMaximaColores)
+                    return this._colores[index];
+                return null;
+            }
+        }
+
+
+    #endregion
+
+
     }
 }
