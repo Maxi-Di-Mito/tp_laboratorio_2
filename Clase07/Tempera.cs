@@ -65,6 +65,7 @@ namespace Clase07
         /// FALSE, caso contrario.</returns>
         public static Boolean operator ==(Tempera t, Tempera t1)
         {
+            if(Object.Equals(null,t) || Object.Equals(null,t1))return false;
             return t._marca == t1._marca && t._color == t1._color;
         }
 

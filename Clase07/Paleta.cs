@@ -33,7 +33,7 @@ namespace Clase07
         {
             string ret = "CantidadMaximaDeColores : " + p._cantidadMaximaColores + "\n";
             for (int i = 0; i < p.Ocupados(); i++)
-            {
+            {                
                 ret += p._colores[i];
             }
             return ret;
@@ -53,13 +53,7 @@ namespace Clase07
             return !(p == t);
         }
 
-
-        /*public static implicit operator String(Paleta p)
-        {
-            return Paleta.Mostrar(p);
-        }*/
-
-
+        
         public static Paleta operator +(Paleta p, Tempera t)
         {            
             if ( p != t)
@@ -70,26 +64,86 @@ namespace Clase07
                     p._colores[ocupados] = t;
                 }
             }
+            else
+            {
+                for (int i = 0; i < p.Ocupados(); i++)
+                {
+                    if (p._colores[i] == t)
+                    {
+                        p._colores[i] += t;
+                        break;
+                    }
+                }
+            }
+
             return p;
         }
 
-        /*public static Paleta operator +(Paleta p1, Paleta p2)
+        public static Paleta operator +(Paleta p1, Paleta p2)
+        {            
+            Paleta paletaAuxiliar = new Paleta((sbyte)(p1._cantidadMaximaColores + p2._cantidadMaximaColores));
+
+            for (int i = 0; i < p1.Ocupados(); i++)
+            {
+                paletaAuxiliar += p1._colores[i];
+            }
+            for (int i = 0; i < p2.Ocupados(); i++)
+            {
+                paletaAuxiliar += p2._colores[i];
+            }
+
+            Paleta laPostaPaleta = new Paleta((sbyte)paletaAuxiliar.Ocupados());
+
+            for (int i = 0; i < paletaAuxiliar.Ocupados(); i++)
+            {
+                laPostaPaleta += paletaAuxiliar._colores[i];
+            }            
+            return laPostaPaleta;
+        }
+
+        public static Paleta operator -(Paleta p, Tempera t)
         {
-            HACER
-        }*/
+            int index = p.WhereIsThisTempera(t);
+            if (index != -1)
+            {
+                p._colores[index] = null;
+                p.Compact();
+            }
+            return p;
+        }
 
-        /*public static Paleta operator -(Paleta p1, Tempera p2)
+
+        private void Compact()
         {
-            HACER: le saco la tempera a la paleta.
-        }*/
+            for (int i = 0; i < this._cantidadMaximaColores-1; i++)
+            {
+                if (Object.Equals(this._colores[i], null))
+                {
+                    this._colores[i] = this._colores[i + 1];
+                }
+            }
+        }
 
 
+        private int WhereIsThisTempera(Tempera t)
+        {
+            int i = 0;
+            for ( i = 0; i < this.Ocupados(); i++)
+            {
+                if (this._colores[i] == t)
+                {
+                    this._colores[i] = null;
+                    break;
+                }
+            }
+            return i != this._cantidadMaximaColores ? i : -1;
+        }
 
         private int Ocupados()
         {
             int i = 0;
-            for ( i = 0; i < this._cantidadMaximaColores && !this._colores[i].Equals(null); i++);
-            return i < this._cantidadMaximaColores ? i : -1;
+            for ( i = 0; i < this._cantidadMaximaColores && !Object.Equals(null,this._colores[i]); i++);
+            return i;
         }
         
     }
