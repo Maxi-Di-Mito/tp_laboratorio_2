@@ -14,7 +14,7 @@ namespace EmpleadoLib
         EPuestoJerarquico _puesto;
         string _salario;
 
-        public Empleado(string n, string a, string l, string p, string s)
+        public Empleado(string n, string a, string l, EPuestoJerarquico p, string s)
         {
             this._nombre = n;
             this._apellido = a;
