@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiculosLib", "VehiculosLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase09", "Clase09\Clase09.csproj", "{94939E6B-0262-4EB3-8BA7-73572D9F0D5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModeloExamenPrimerParcial", "ModeloExamenPrimerParcial\ModeloExamenPrimerParcial.csproj", "{9918918A-6BDB-44A3-9074-7C4F59A6E1E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{94939E6B-0262-4EB3-8BA7-73572D9F0D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94939E6B-0262-4EB3-8BA7-73572D9F0D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94939E6B-0262-4EB3-8BA7-73572D9F0D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9918918A-6BDB-44A3-9074-7C4F59A6E1E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9918918A-6BDB-44A3-9074-7C4F59A6E1E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9918918A-6BDB-44A3-9074-7C4F59A6E1E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9918918A-6BDB-44A3-9074-7C4F59A6E1E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
