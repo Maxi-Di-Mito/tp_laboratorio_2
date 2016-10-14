@@ -16,17 +16,17 @@ namespace CentralitaHerencia
             Llamada l3 = new Local("escalada",45f,"lomas de zamora",1.99f);
             Llamada l4 = new Provincial(Franja.Franja_3, l2);
 
-            c.Llamadas.Add(l1);
-            c.Llamadas.Add(l2);
-            c.Llamadas.Add(l3);
-            c.Llamadas.Add(l4);
+            c +=l1;
+            c +=l2;
+            c +=l3;
+            c +=l4;
 
-            c.Mostrar();
+            Console.WriteLine(c);
 
             Console.WriteLine("\n ORDENO LAS LLAMADAS");
             c.OrdenarLlamadas();
 
-            c.Mostrar();
+            Console.WriteLine(c);
 
             Console.ReadKey();
         }

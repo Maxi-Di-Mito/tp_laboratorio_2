@@ -10,6 +10,19 @@ namespace CentralitaHerencia
     {
         private List<Llamada> _listaDeLlamadas;
         protected string _razonSocial;
+        private string _ruta;
+
+        public string RutaDeArchivo
+        {
+            get
+            {
+                return this._ruta;
+            }
+            set
+            {
+                this._ruta = value;
+            }
+        }
 
         public List<Llamada> Llamadas
         {
@@ -51,17 +64,20 @@ namespace CentralitaHerencia
             this._razonSocial = nombreEmpresa;
 
         }
+              
 
-        public void Mostrar()
+        public override string ToString()
         {
-            Console.WriteLine("RAZON SOCIAL: " + this._razonSocial);
-            Console.WriteLine("GANANCIA TOTAL: " + this.GananciaTotal);
-            Console.WriteLine("GANANCIA POR LOCALES: " + this.GananciaPorLocal);
-            Console.WriteLine("GANANCIA POR PROVINCIALES: " + this.GananciaPorProvincial);
-            foreach (Llamada l   in this._listaDeLlamadas)
+            StringBuilder b = new StringBuilder();
+            b.AppendLine("RAZON SOCIAL: " + this._razonSocial);
+            b.AppendLine("GANANCIA TOTAL: " + this.GananciaTotal);
+            b.AppendLine("GANANCIA POR LOCALES: " + this.GananciaPorLocal);
+            b.AppendLine("GANANCIA POR PROVINCIALES: " + this.GananciaPorProvincial);
+            foreach (Llamada l in this._listaDeLlamadas)
             {
-                l.Mostrar();
+                b.AppendLine(l.ToString());
             }
+            return b.ToString();
         }
 
         public void OrdenarLlamadas()
@@ -91,7 +107,45 @@ namespace CentralitaHerencia
         }
 
 
+        private void AgregarLlamada(Llamada l)
+        {
+            this._listaDeLlamadas.Add(l);
+        }
 
+
+        private void GuardarEnArchivo(Llamada llamada, bool agrego)
+        {
+            if (agrego)
+            {
+                // appendeo
+            }
+            else
+            {
+                //reescribo
+            }
+
+        }
+
+
+
+        public static bool operator ==(Centralita c, Llamada llamada)
+        {
+            return c._listaDeLlamadas.Exists(delegate(Llamada l) { return l == llamada; });
+        }
+
+        public static bool operator !=(Centralita c, Llamada llamada)
+        {
+            return !(c == llamada);
+        }
+
+        public static Centralita operator +(Centralita c, Llamada l)
+        {
+            if (c != l)
+                c.AgregarLlamada(l);
+            else
+                throw new CentralitaException("La llamada ya se encuentra cargada", "Centralita", "+");
+            return c;
+        }
 
 
     }
