@@ -1,0 +1,5 @@
+D:\VisualStudio\Programacion2-Clase01\Ejercicio10\bin\Debug\Ejercicio10.exe.config
+D:\VisualStudio\Programacion2-Clase01\Ejercicio10\bin\Debug\Ejercicio10.exe
+D:\VisualStudio\Programacion2-Clase01\Ejercicio10\bin\Debug\Ejercicio10.pdb
+D:\VisualStudio\Programacion2-Clase01\Ejercicio10\obj\Debug\Ejercicio10.exe
+D:\VisualStudio\Programacion2-Clase01\Ejercicio10\obj\Debug\Ejercicio10.pdb
