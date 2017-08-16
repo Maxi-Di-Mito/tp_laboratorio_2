@@ -10,22 +10,20 @@ namespace Ejercicio10
     {
         static void Main(string[] args)
         {
-            int pisos = 5;
-            int contador = 1;
+            int pisos;
             string line = "*";
             string input;
             do
             {
                 input = Console.ReadLine();
-            } while (!Int32.TryParse(input, out pisos));
+            } while (!int.TryParse(input, out pisos));
             
             line = line.Insert(0,new String(' ',pisos-1));
-            
-            while (contador <= pisos)
-            {               
-                Console.WriteLine(line);                
-                line = line.Substring(1, line.Length-1) + "**";
-                contador++;
+
+            for (int i = 0; i < pisos; i++ )
+            {
+                Console.WriteLine(line);
+                line = line.Substring(1, line.Length - 1) + "**";                
             }
 
             Console.ReadKey();

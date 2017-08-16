@@ -10,21 +10,20 @@ namespace Ejercicio9
     {
         static void Main(string[] args)
         {
-            int pisos = 5;
-            int contador = 1;
+            int pisos;            
             string line = "";
             string input;
+            
             do
             {
                  input = Console.ReadLine();
-            }while(!Int32.TryParse(input, out pisos));
-                        
+            }while(!int.TryParse(input, out pisos));
 
-            while (contador <= pisos)
+
+            for (int i = 0; i < pisos;i++ )
             {
-                line += "*";
-                Console.WriteLine(line);
-                contador++;
+                line = line + "*";
+                Console.WriteLine(line);                
             }
 
             Console.ReadKey();
