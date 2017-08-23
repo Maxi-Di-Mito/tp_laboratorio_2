@@ -1,0 +1,6 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\bin\Debug\Ejercicio13.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\obj\Debug\Ejercicio13.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\bin\Debug\Ejercicio13.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\bin\Debug\Ejercicio13.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\obj\Debug\Ejercicio13.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio13\obj\Debug\Ejercicio13.pdb
