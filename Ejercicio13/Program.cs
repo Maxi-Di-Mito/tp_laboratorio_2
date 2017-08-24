@@ -10,7 +10,7 @@ namespace Ejercicio13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Conversor.DecimalBinario(10.5));
+            Console.WriteLine(Conversor.DecimalBinario(4));
 
             Console.WriteLine(Conversor.BinarioDecimal("1010,1"));
             

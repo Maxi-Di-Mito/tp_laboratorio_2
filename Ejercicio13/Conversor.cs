@@ -21,7 +21,11 @@ namespace Ejercicio13
                 numEntero /= 2;
                 result = c + result;
             }
-            result += ',';
+            c = numEntero == 1 ? '1' : '0';
+            result = c + result;
+
+            if(numDecimal > 0)
+                result += ',';
 
             while (numDecimal > 0)
             {
@@ -37,8 +41,8 @@ namespace Ejercicio13
                 result += c;
             }            
 
-            c = numEntero == 1 ? '1' : '0';
-            result = c + result;
+           
+            
             return result;
         }
 
@@ -62,8 +66,7 @@ namespace Ejercicio13
                 n = n * Math.Pow(2,-(i+1));
                 result += n;
             }
-
-            
+                        
             return result;
         }
 
