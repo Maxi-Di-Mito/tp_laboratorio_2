@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio13
 {
-    class Conversor
+    public class Conversor
     {
         public static string DecimalBinario(double num)
         {
@@ -51,7 +51,7 @@ namespace Ejercicio13
             double result = 0;
 
             string numEntero = num.Split(',')[0];
-            string numDecimal = num.Split(',')[1];
+            string numDecimal = num.Split(',').Length == 2 ? num.Split(',')[1] : "";
 
             for (int i = 0; i < numEntero.Length; i++)
             {

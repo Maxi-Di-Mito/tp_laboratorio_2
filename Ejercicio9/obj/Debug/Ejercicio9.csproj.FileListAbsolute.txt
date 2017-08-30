@@ -4,9 +4,3 @@ D:\VisualStudio\Programacion2-Clase01\Ejercicio9\bin\Debug\Ejercicio9.pdb
 D:\VisualStudio\Programacion2-Clase01\Ejercicio9\obj\Debug\Ejercicio9.csprojResolveAssemblyReference.cache
 D:\VisualStudio\Programacion2-Clase01\Ejercicio9\obj\Debug\Ejercicio9.exe
 D:\VisualStudio\Programacion2-Clase01\Ejercicio9\obj\Debug\Ejercicio9.pdb
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\bin\Debug\Ejercicio9.exe.config
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\obj\Debug\Ejercicio9.exe
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\obj\Debug\Ejercicio9.pdb
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\bin\Debug\Ejercicio9.exe
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\bin\Debug\Ejercicio9.pdb
-D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio9\obj\Debug\Ejercicio9.csprojResolveAssemblyReference.cache

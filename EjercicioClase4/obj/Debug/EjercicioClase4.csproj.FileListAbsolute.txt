@@ -1,5 +1,0 @@
-D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase4\bin\Debug\EjercicioClase4.exe.config
-D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase4\bin\Debug\EjercicioClase4.exe
-D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase4\bin\Debug\EjercicioClase4.pdb
-D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase4\obj\Debug\EjercicioClase4.exe
-D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase4\obj\Debug\EjercicioClase4.pdb
