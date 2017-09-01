@@ -46,7 +46,7 @@ namespace Clase5ModeloExamen
         {
             foreach (Producto p in estante._productos)
             {
-                if (p == prod)
+                if (!Object.ReferenceEquals(p, null) && p == prod)
                     return true;
             }
             return false;
@@ -59,18 +59,30 @@ namespace Clase5ModeloExamen
 
         public static bool operator +(Estante estante, Producto prod)
         {
-            return (estante._productos.Length < estante._max) && (estante != prod);///TODO QUE ONDA esto?
+            bool ret = (estante._productos.Length < estante._max) && (estante != prod);///TODO QUE ONDA esto?
+            if (ret)
+            {
+                estante._productos[estante._productos.Length] = prod;
+            }
+            return ret;
+
         }
 
         public static Estante operator -(Estante estante, Producto prod)
         {
             Estante nuevoEstante = new Estante(estante._max, estante._ubicacion);
             
-            foreach (Producto p in estante._productos)
+            int offSetIndex = 0;
+            for (int i = 0; i < estante._productos.Length;i++)
             {
+                Producto p = estante._productos[i];
                 if (p != prod)
                 {
-                    nuevoEstante._pro//TODO hacer metodo y consultar el +;
+                    nuevoEstante._productos[i - offSetIndex] = p;
+                }
+                else 
+                {
+                    offSetIndex++;
                 }
             }
 
