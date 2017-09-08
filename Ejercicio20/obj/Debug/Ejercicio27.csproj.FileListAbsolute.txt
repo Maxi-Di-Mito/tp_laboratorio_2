@@ -1,0 +1,5 @@
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio20\bin\Debug\Ejercicio20.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio20\bin\Debug\Ejercicio20.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio20\obj\Debug\Ejercicio20.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio20\obj\Debug\Ejercicio20.pdb

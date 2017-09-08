@@ -1,1 +1,2 @@
 D:\Di Mito Maximiliano\tp_laboratorio_2\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.exe.config
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.exe.config

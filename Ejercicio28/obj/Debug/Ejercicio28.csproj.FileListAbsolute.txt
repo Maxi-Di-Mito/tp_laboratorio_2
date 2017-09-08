@@ -1,0 +1,9 @@
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.exe.config
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.csprojResolveAssemblyReference.cache
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.Form1.resources
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.Properties.Resources.resources
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.csproj.GenerateResource.Cache
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.pdb
