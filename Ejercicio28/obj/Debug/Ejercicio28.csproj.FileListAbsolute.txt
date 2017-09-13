@@ -7,3 +7,6 @@ D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.Proper
 D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.csproj.GenerateResource.Cache
 D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.exe
 D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.pdb

@@ -1,0 +1,9 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\bin\Debug\TP01.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.Form1.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.Properties.Resources.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.csproj.GenerateResource.Cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\bin\Debug\TP01.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\bin\Debug\TP01.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP01\TP01\obj\Debug\TP01.pdb
