@@ -10,3 +10,9 @@ D:\Maximiliano Di Mito\TP_Laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.exe.config
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\bin\Debug\Ejercicio28.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.Form1.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.Properties.Resources.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio28\obj\Debug\Ejercicio28.csproj.GenerateResource.Cache

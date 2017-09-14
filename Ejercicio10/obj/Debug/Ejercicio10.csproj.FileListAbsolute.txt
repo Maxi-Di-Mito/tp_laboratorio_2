@@ -3,3 +3,9 @@ D:\VisualStudio\Programacion2-Clase01\Ejercicio10\bin\Debug\Ejercicio10.exe
 D:\VisualStudio\Programacion2-Clase01\Ejercicio10\bin\Debug\Ejercicio10.pdb
 D:\VisualStudio\Programacion2-Clase01\Ejercicio10\obj\Debug\Ejercicio10.exe
 D:\VisualStudio\Programacion2-Clase01\Ejercicio10\obj\Debug\Ejercicio10.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\bin\Debug\Ejercicio10.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\bin\Debug\Ejercicio10.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\bin\Debug\Ejercicio10.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\obj\Debug\Ejercicio10.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\obj\Debug\Ejercicio10.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio10\obj\Debug\Ejercicio10.pdb
