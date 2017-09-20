@@ -4,3 +4,6 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio37\bin\Debug\Ejercicio37.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio37\bin\Debug\Ejercicio37.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio37\obj\Debug\Ejercicio37.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio37\obj\Debug\Ejercicio37.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio37\bin\Debug\Ejercicio37.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio37\obj\Debug\Ejercicio37.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio37\obj\Debug\Ejercicio37.pdb

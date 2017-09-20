@@ -1,0 +1,6 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\bin\Debug\RPP2017lab2.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\obj\Debug\RPP2017lab2.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\bin\Debug\RPP2017lab2.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\bin\Debug\RPP2017lab2.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\obj\Debug\RPP2017lab2.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\RPP2017lab2\obj\Debug\RPP2017lab2.pdb
