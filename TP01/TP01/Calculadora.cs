@@ -61,7 +61,7 @@ namespace TP01
 
         private static String ValidarOperador(String op)
         {
-            if (Calculadora.operaciones.ContainsKey(op))
+            if (op != null && Calculadora.operaciones.ContainsKey(op))
             {
                 return op;
             }
