@@ -36,10 +36,8 @@ namespace RPP2017lab2
         }
 
         public Jugador(String nombre, String apellido)
-            :base(nombre,apellido)
-        {
-            this._numero = 0;
-            this._esCapitan = false;
+            :this(nombre,apellido,0,false)
+        {            
         }
 
         public Jugador(String nombre, String apellido, int numero, bool capitan)

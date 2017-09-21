@@ -1,0 +1,6 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\bin\Debug\EjemploAle.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\obj\Debug\EjemploAle.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\bin\Debug\EjemploAle.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\bin\Debug\EjemploAle.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\obj\Debug\EjemploAle.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjemploAle\obj\Debug\EjemploAle.pdb
