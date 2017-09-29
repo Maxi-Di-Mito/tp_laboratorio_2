@@ -33,13 +33,18 @@ namespace Ejercicio37
             this._franjaHoraria = miFranja;
         }
 
-        public String Mostrar()
+        protected String Mostrar()
         {
             StringBuilder builder = new StringBuilder();
             builder.Append(base.Mostrar());
             builder.AppendLine("Franja: " + this._franjaHoraria);
             builder.AppendLine("Costo: " + this.CostoLlamada);
             return builder.ToString();
+        }
+
+        public override string ToString()
+        {
+ 	        return this.Mostrar();
         }
 
         private float CalcularCosto()
@@ -61,12 +66,10 @@ namespace Ejercicio37
         }
 
 
-        public override float CostoHeredado()
+        public override bool Equals(object obj)
         {
-            return this.CostoLlamada;
+            return obj is Provincial;
         }
-
-
               
 
 

@@ -42,6 +42,14 @@ namespace Ejercicio37
             }
         }
 
+        public float CostoLlamada 
+        {
+            get 
+            {
+                return 0;
+            }
+        }
+
 
         public Llamada(float duracion, String nroDestino, String nroOrigen)
         {
@@ -50,7 +58,7 @@ namespace Ejercicio37
             this._nroOrigen = nroOrigen;
         }
 
-        public String Mostrar()
+        public virtual String Mostrar()
         {
             StringBuilder builder = new StringBuilder();
             builder.AppendLine("Duracion: " + this._duracion);
@@ -64,10 +72,17 @@ namespace Ejercicio37
             return (int)Math.Ceiling(l1._duracion - l2._duracion);
         }
 
-        public abstract float CostoHeredado();
 
+        public static bool operator ==(Llamada l1, Llamada l2)
+        {
+            return l1.Equals(l2) && l1._nroOrigen == l2._nroOrigen && l1._nroDestino == l2._nroDestino;
+        }
 
-        
+        public static bool operator !=(Llamada l1, Llamada l2)
+        {
+            return !(l1 == l2);
+        }
+
 
     }
 }

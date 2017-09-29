@@ -62,14 +62,14 @@ namespace Ejercicio37
                 {
                     if (l is Local)
                     {                        
-                        ganancia += l.CostoHeredado();
+                        ganancia += l.CostoLlamada;
                     }                    
                 }
                 if (tipo == TipoLlamada.Provincial || tipo == TipoLlamada.Todas)
                 {
                     if (l is Provincial)
                     {                        
-                        ganancia += l.CostoHeredado();
+                        ganancia += l.CostoLlamada;
                     }  
                 }
             }
@@ -85,9 +85,19 @@ namespace Ejercicio37
                 builder.AppendLine(l.Mostrar());
             }
 
-            return builder.ToString();
-
+            return builder.ToString();       
         }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
+        private void AgregarLlamada(Llamada nuevaLlamada)
+        {
+            this.listadeLlamadas.Add(nuevaLlamada);
+        }
+        
 
 
         public void OrdenarLlamadas()
@@ -95,9 +105,24 @@ namespace Ejercicio37
 
         }
 
+        public static bool operator ==(Centralita c, Llamada l)
+        {
+            return c.listadeLlamadas.Contains(l);
+        }
 
 
+        public static bool operator !=(Centralita c, Llamada l)
+        {
+            return !(c == l);
+        }
 
+        public static Centralita operator +(Centralita c, Llamada l)
+        {
+            if (!(c == l))
+                c.AgregarLlamada(l);
+
+            return c;
+        }
 
     }
 }

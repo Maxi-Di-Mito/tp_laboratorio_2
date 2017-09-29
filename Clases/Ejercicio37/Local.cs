@@ -10,7 +10,7 @@ namespace Ejercicio37
     {
         private float _costo;
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -36,7 +36,7 @@ namespace Ejercicio37
             return base._duracion * this._costo;
         }
 
-        public String Mostrar()
+        protected override String Mostrar()
         {
             StringBuilder builder = new StringBuilder();
             builder.Append(base.Mostrar());
@@ -44,13 +44,16 @@ namespace Ejercicio37
             return builder.ToString();
         }
 
-
-        public override float CostoHeredado()
+        public override bool Equals(object obj)
         {
-            return this.CostoLlamada;
+            return obj is Local;
         }
-        
 
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
         
 
 
