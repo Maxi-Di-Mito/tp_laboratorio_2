@@ -1,0 +1,6 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\bin\Debug\Ejercicio42.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\bin\Debug\Ejercicio42.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\bin\Debug\Ejercicio42.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\obj\Debug\Ejercicio42.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\obj\Debug\Ejercicio42.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio42\obj\Debug\Ejercicio42.pdb
