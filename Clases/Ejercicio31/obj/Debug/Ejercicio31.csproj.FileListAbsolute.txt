@@ -1,1 +1,6 @@
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio31\bin\Debug\Ejercicio31.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio31\bin\Debug\Ejercicio31.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio31\bin\Debug\Ejercicio31.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio31\bin\Debug\Ejercicio31.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio31\obj\Debug\Ejercicio31.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio31\obj\Debug\Ejercicio31.pdb

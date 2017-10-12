@@ -1,0 +1,5 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase17\bin\Debug\Clase17.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase17\bin\Debug\Clase17.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase17\bin\Debug\Clase17.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase17\obj\Debug\Clase17.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase17\obj\Debug\Clase17.pdb

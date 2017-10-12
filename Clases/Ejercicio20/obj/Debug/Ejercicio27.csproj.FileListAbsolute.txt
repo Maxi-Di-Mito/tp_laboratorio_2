@@ -8,3 +8,8 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio20\bin\Debug\Ejercicio20.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio20\bin\Debug\Ejercicio20.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio20\obj\Debug\Ejercicio20.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio20\obj\Debug\Ejercicio20.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio20\bin\Debug\Ejercicio20.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio20\bin\Debug\Ejercicio20.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio20\obj\Debug\Ejercicio20.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio20\obj\Debug\Ejercicio20.pdb

@@ -3,3 +3,9 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio11\bin\Debug\Ejercicio11.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio11\bin\Debug\Ejercicio11.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio11\obj\Debug\Ejercicio11.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Ejercicio11\obj\Debug\Ejercicio11.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\bin\Debug\Ejercicio11.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\bin\Debug\Ejercicio11.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\bin\Debug\Ejercicio11.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\obj\Debug\Ejercicio11.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\obj\Debug\Ejercicio11.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio11\obj\Debug\Ejercicio11.pdb
