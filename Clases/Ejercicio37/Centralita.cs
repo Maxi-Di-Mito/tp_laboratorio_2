@@ -120,7 +120,8 @@ namespace Ejercicio37
         {
             if (!(c == l))
                 c.AgregarLlamada(l);
-
+            else
+                throw new CentralitaException("Llamada ya incluida","Centralita", "Operator + ");
             return c;
         }
 

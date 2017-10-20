@@ -22,4 +22,8 @@ namespace Ejercicio42
             Console.ReadKey();
         }
     }
+
+
+    
+
 }

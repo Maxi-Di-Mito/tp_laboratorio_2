@@ -6,3 +6,11 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase5CampusProvisorio\bin\Debu
 D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.csprojResolveAssemblyReference.cache
 D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\bin\Debug\EjercicioClase5CampusProvisorio.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\bin\Debug\EjercicioClase5CampusProvisorio.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\bin\Debug\EjercicioClase5CampusProvisorio.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\bin\Debug\Ejercicio13.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\bin\Debug\Ejercicio13.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\EjercicioClase5CampusProvisorio\obj\Debug\EjercicioClase5CampusProvisorio.pdb

@@ -36,7 +36,7 @@ namespace Ejercicio37
             return base._duracion * this._costo;
         }
 
-        protected override String Mostrar()
+        public override String Mostrar()
         {
             StringBuilder builder = new StringBuilder();
             builder.Append(base.Mostrar());

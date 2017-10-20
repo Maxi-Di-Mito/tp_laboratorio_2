@@ -4,3 +4,8 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\Clase5ModeloExamen\bin\Debug\Clase5Model
 D:\Di Mito Maximiliano\tp_laboratorio_2\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\Clase5ModeloExamen\obj\Debug\Clase5ModeloExamen.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\Clase5ModeloExamen\obj\Debug\Clase5ModeloExamen.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase5ModeloExamen\bin\Debug\Clase5ModeloExamen.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase5ModeloExamen\obj\Debug\Clase5ModeloExamen.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Clase5ModeloExamen\obj\Debug\Clase5ModeloExamen.pdb

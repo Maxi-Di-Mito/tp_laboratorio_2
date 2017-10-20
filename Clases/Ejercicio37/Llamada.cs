@@ -42,7 +42,7 @@ namespace Ejercicio37
             }
         }
 
-        public float CostoLlamada 
+        virtual public float CostoLlamada 
         {
             get 
             {
