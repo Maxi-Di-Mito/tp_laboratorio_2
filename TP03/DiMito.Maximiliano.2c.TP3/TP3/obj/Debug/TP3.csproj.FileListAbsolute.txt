@@ -1,0 +1,2 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\TP3\bin\Debug\TP3.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\TP3\obj\Debug\TP3.csprojResolveAssemblyReference.cache
