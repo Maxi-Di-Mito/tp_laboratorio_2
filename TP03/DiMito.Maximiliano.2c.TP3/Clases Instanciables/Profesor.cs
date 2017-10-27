@@ -1,14 +1,15 @@
-﻿using System;
+﻿using EntidadesAbstractas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3
+namespace ClasesInstanciables
 {
-    sealed class Profesor:Universitario
+    public sealed class Profesor:Universitario
     {
-        private Queue<EClases> _clasesDelDia;
+        private Queue<Universidad.EClases> _clasesDelDia;
         private static Random _random;
 
         static Profesor()
@@ -18,9 +19,9 @@ namespace TP3
 
         private Profesor()
         {
-            this._clasesDelDia = new Queue<EClases>();
-            this._clasesDelDia.Enqueue((EClases)Profesor._random.Next(0, 3));
-            this._clasesDelDia.Enqueue((EClases)Profesor._random.Next(0, 3));
+            this._clasesDelDia = new Queue<Universidad.EClases>();
+            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
+            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
         }
 
         public Profesor(int id, String nombre, String apellido, String dni, ENacionalidad nacionalidad)
@@ -34,9 +35,9 @@ namespace TP3
 
         protected override string ParticiparEnClase()
         {
-            StringBuilder builder = new StringBuilder();
+            StringBuilder builder = new StringBuilder();            
             builder.AppendLine("CLASES DEL DIA:");
-            foreach(EClases clase in this._clasesDelDia)
+            foreach(Universidad.EClases clase in this._clasesDelDia)
             {
                 builder.AppendLine(clase.ToString());
             }
@@ -55,13 +56,18 @@ namespace TP3
 
 
 
-        public static bool operator ==(Profesor i, EClases clase)
+        public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
-            return i._clasesDelDia.Contains(clase);
+            foreach (Universidad.EClases c in i._clasesDelDia)
+            {
+                if (c == clase)
+                    return true;
+            }
+            return false;
         }
 
 
-        public static bool operator !=(Profesor i, EClases clase)
+        public static bool operator !=(Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }

@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Excepciones;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace TP3
+namespace EntidadesAbstractas
 {
-    abstract class Persona
+    public abstract class Persona
     {
 
         private String _nombre;
@@ -103,9 +104,9 @@ namespace TP3
             }
             else
             {
-                throw new DniInvalidoException("El dni no es valido");
+                throw new DniInvalidoException("El dni no es valido");                
             }
-            
+            return 0;
         }
 
         
@@ -149,16 +150,16 @@ namespace TP3
             return builder.ToString();
         }
 
-
+        public enum ENacionalidad
+        {
+            Argentino,
+            Extranjero
+        }
 
 
     }
 
 
-    public enum ENacionalidad
-    {
-        Argentino,
-        Extranjero
-    }
+    
 
 }

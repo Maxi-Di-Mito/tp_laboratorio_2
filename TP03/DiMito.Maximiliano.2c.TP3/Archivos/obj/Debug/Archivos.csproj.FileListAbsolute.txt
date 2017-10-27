@@ -1,0 +1,7 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.pdb

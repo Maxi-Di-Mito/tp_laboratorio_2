@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3
+namespace EntidadesAbstractas
 {
-    abstract class Universitario:Persona
+    public abstract class Universitario:Persona
     {
 
         private int legajo;
@@ -29,7 +29,7 @@ namespace TP3
         {
             StringBuilder builder = new StringBuilder();
             builder.AppendLine(base.ToString());
-            builder.AppendLine("Legajo: " + this.legajo);
+            builder.AppendLine("CARNET: " + this.legajo);
             return builder.ToString();
         }
 

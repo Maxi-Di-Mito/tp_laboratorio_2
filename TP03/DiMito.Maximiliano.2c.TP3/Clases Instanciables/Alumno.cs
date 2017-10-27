@@ -1,21 +1,30 @@
-﻿using System;
+﻿using EntidadesAbstractas;
+using ClasesInstanciables;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP3
+namespace ClasesInstanciables
 {
-    class Alumno: Universitario
+    public sealed class Alumno: Universitario
     {
-        private EClases _claseQueToma;
+        private Universidad.EClases _claseQueToma;
         private EEstadoCuenta _estadoCuenta;
 
         public Alumno(){}
 
-        public Alumno(int id, String nombre, String apellido, String dni, ENacionalidad nacionalidad, EClases claseQueTome)
+        public Alumno(int id, String nombre, String apellido, String dni, ENacionalidad nacionalidad, Universidad.EClases claseQueTome)
+            :base(id,nombre,apellido,dni,nacionalidad)
         {
+            this._claseQueToma = claseQueTome;
+        }
 
+        public Alumno(int id, String nombre, String apellido, String dni, ENacionalidad nacionalidad, Universidad.EClases claseQueTome, EEstadoCuenta estadoCuenta)
+            :this(id,nombre,apellido,dni,nacionalidad,claseQueTome)
+        {
+            this._estadoCuenta = estadoCuenta;
         }
         
         protected override string ParticiparEnClase()
@@ -37,20 +46,20 @@ namespace TP3
         }
 
 
-        public static bool operator==(Alumno a, EClases clase)
+        public static bool operator==(Alumno a, Universidad.EClases clase)
         {
             return a._claseQueToma == clase && a._estadoCuenta != EEstadoCuenta.Deudor;            
         }
 
 
-        public static bool operator!=(Alumno a, EClases clase)
+        public static bool operator!=(Alumno a, Universidad.EClases clase)
         {
             return !(a == clase);
         }
 
 
 
-        enum EEstadoCuenta
+        public enum EEstadoCuenta
         {
             AlDia,
             Deudor,
@@ -60,14 +69,7 @@ namespace TP3
     }
 
 
-
-    public enum EClases
-    {
-        Programacion,
-        Laboratorio,
-        Legislacion,
-        SPD
-    }
+        
 
 
 

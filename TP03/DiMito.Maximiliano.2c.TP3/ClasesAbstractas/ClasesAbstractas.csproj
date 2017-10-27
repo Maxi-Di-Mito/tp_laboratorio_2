@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0100E5DE-D01A-488D-ACB0-79806C59E6BF}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{4B8EB191-78D7-46D0-8413-4FE2D8D1A92D}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EntidadesAbstractas</RootNamespace>
-    <AssemblyName>TP3</AssemblyName>
+    <AssemblyName>ClasesAbstractas</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,21 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Universitario.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Clases Instanciables\ClasesInstanciables.csproj">
-      <Project>{97532119-4cc9-4aa4-92ed-45bccd3d0b1e}</Project>
-      <Name>ClasesInstanciables</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ClasesAbstractas\ClasesAbstractas.csproj">
-      <Project>{4b8eb191-78d7-46d0-8413-4fe2d8d1a92d}</Project>
-      <Name>ClasesAbstractas</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Excepciones\Excepciones.csproj">
       <Project>{958d0bbe-7317-43c8-b392-0d81452ec34b}</Project>
       <Name>Excepciones</Name>
