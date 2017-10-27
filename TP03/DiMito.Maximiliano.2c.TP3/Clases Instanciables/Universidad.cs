@@ -1,5 +1,6 @@
 ﻿using Archivos;
 using EntidadesAbstractas;
+using Excepciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,7 +64,12 @@ namespace ClasesInstanciables
             }
         }
 
-        public Universidad() { }
+        public Universidad() 
+        {
+            this.alumnos = new List<Alumno>();
+            this.profesores = new List<Profesor>();
+            this.jornada = new List<Jornada>();
+        }
 
         public static bool Guardar( Universidad gim)
         {
@@ -71,54 +77,101 @@ namespace ClasesInstanciables
             return xml.Guardar("Universidad.xml",gim);
         }
 
-        private String MostrarDatos()
+        private static String MostrarDatos(Universidad g)
         {
             StringBuilder builder = new StringBuilder();
-
-
+            builder.AppendLine("JORNADA:");
+            foreach (Jornada j in g.jornada)
+            {
+                builder.AppendLine(j.ToString());
+            }
+            builder.AppendLine("ALUMNOS:");
+            foreach (Alumno a in g.alumnos)
+            {
+                builder.AppendLine(a.ToString());
+            }
             return builder.ToString();
         }
 
+        public String ToString()
+        {
+            return Universidad.MostrarDatos(this);
+        }
 
         public static bool operator ==(Universidad g, Profesor i)
         {
-            return true;
+            foreach (Profesor p in g.profesores)
+                if (Object.ReferenceEquals(p, i)) return true;
+            return false;
         }
         public static bool operator !=(Universidad g, Profesor i)
         {
-            return true;
+            return !(g == i);
         }
+
         public static Profesor operator ==(Universidad g, EClases clase)
         {
-            return new Profesor(1, "Maxi", "Di Mito", "35639526", Persona.ENacionalidad.Argentino);
+            foreach (Profesor p in g.profesores)
+            {
+                if (p == clase)
+                    return p;
+            }
+            throw new SinProfesorException();
         }
         public static Profesor operator !=(Universidad g, EClases clase)
         {
-            return new Profesor(1, "Maxi", "Di Mito", "35639526", Persona.ENacionalidad.Argentino);
+            foreach (Profesor p in g.profesores)
+            {
+                if (p != clase)
+                    return p;
+            }
+            throw new SinProfesorException();
         }
+
         public static bool operator ==(Universidad g, Alumno a)
         {
-            return true;
+            foreach(Alumno l in g.alumnos)
+                if(Object.ReferenceEquals(l,a)) return true;
+            return false;
         }
         public static bool operator !=(Universidad g, Alumno a)
         {
-            return true;
+            return !(g == a);
         }
 
 
         public static Universidad operator +(Universidad g, Alumno a)
         {
-
+            Jornada jornadaParaAlumno = null; ;
+            if (g != a)
+            {
+                g.alumnos.Add(a);
+                foreach (Jornada j in g.jornada)
+                {
+                    if (a == j.Clase)
+                    {
+                        jornadaParaAlumno = j;
+                        jornadaParaAlumno += a;
+                    }
+                }
+            }            
+             
+            return g;
         }
 
         public static Universidad operator +(Universidad g, EClases clase)
         {
-
+            Profesor p = g == clase;
+            Jornada j = new Jornada(clase, p);
+            g.jornada.Add(j);
+            return g;
         }
 
         public static Universidad operator +(Universidad g, Profesor i)
         {
-
+            if (g != i)
+                g.profesores.Add(i);
+            return g;
         }
 
         public enum EClases

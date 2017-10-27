@@ -142,9 +142,7 @@ namespace EntidadesAbstractas
         public String ToString()
         {
             StringBuilder builder = new StringBuilder();
-            builder.AppendLine("Apellido: " + this._apellido);
-            builder.AppendLine("Nombre: " + this._nombre);
-            builder.AppendLine("DNI: " + this._dni);
+            builder.AppendLine("NOMBRE COMPLETO: " + this._apellido+", "+this._nombre);                        
             builder.AppendLine("Nacionalidad: " + this._nacionalidad);
 
             return builder.ToString();

@@ -14,23 +14,26 @@ namespace ClasesInstanciables
 
         static Profesor()
         {
-            Profesor._random = new Random();
+            Profesor._random = new Random();            
         }
 
-        private Profesor()
+        public Profesor()
         {
-            this._clasesDelDia = new Queue<Universidad.EClases>();
-            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
-            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
+            _randomClases();
         }
 
         public Profesor(int id, String nombre, String apellido, String dni, ENacionalidad nacionalidad)
             :base(id,nombre,apellido,dni,nacionalidad)
         {
-
+            _randomClases();
         }
 
-         
+        private void _randomClases()
+        {
+            this._clasesDelDia = new Queue<Universidad.EClases>();
+            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
+            this._clasesDelDia.Enqueue((Universidad.EClases)Profesor._random.Next(0, 3));
+        }
 
 
         protected override string ParticiparEnClase()

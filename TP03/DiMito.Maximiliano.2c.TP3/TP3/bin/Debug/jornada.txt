@@ -1,0 +1,12 @@
+Clase de Programacion POR NOMBRE COMPLETO: Lopez, Juan
+Nacionalidad: Argentino
+
+LEGAJO NUMERO: 1
+
+CLASES DEL DIA:
+Laboratorio
+Programacion
+
+
+ALUMNOS:
+<---------------------------------------->

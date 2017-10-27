@@ -29,7 +29,7 @@ namespace EntidadesAbstractas
         {
             StringBuilder builder = new StringBuilder();
             builder.AppendLine(base.ToString());
-            builder.AppendLine("CARNET: " + this.legajo);
+            builder.AppendLine("LEGAJO NUMERO: " + this.legajo);
             return builder.ToString();
         }
 

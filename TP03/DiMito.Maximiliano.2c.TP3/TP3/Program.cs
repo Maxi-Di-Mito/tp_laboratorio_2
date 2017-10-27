@@ -13,7 +13,7 @@ namespace EntidadesAbstractas
     {
         static void Main(string[] args)
         {
-            /*Universidad gim = new Universidad();
+            Universidad gim = new Universidad();
             Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456",
            EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
            Alumno.EEstadoCuenta.Becado);
@@ -121,7 +121,7 @@ namespace EntidadesAbstractas
             {
                 Console.WriteLine(e.Message);
             }
-            Console.ReadKey();*/
+            Console.ReadKey();
         }
     }
 }

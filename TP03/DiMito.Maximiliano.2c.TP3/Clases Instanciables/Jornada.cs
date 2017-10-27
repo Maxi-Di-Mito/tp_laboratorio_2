@@ -84,7 +84,7 @@ namespace ClasesInstanciables
         public String ToString()
         {
             StringBuilder builder = new StringBuilder();
-            builder.AppendLine("Clase de " + this._clase.ToString() + " NOMBRE COMPLETO: " + this._instructor.ToString());
+            builder.AppendLine("Clase de " + this._clase.ToString() + " POR "+this._instructor.ToString());
             builder.AppendLine("ALUMNOS:");
             foreach(Alumno a in this._alumnos)
             {
@@ -92,7 +92,7 @@ namespace ClasesInstanciables
             }
             builder.AppendLine("<---------------------------------------->");
             
-            return "";
+            return builder.ToString();
         }
 
         public static bool Guardar(Jornada jornada)
