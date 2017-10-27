@@ -81,14 +81,14 @@ namespace EntidadesAbstractas
                 if (dato >= 1 && dato <= 89999999)
                     return dato;
                 else
-                    throw new DniInvalidoException("El dni no es valido para un argentino");
+                    throw new DniInvalidoException("La nacionalidad no se condice con el numero de dni");
             }
             else
             {
                 if (dato > 89999999 && dato <= 99999999)
                     return dato;
                 else
-                    throw new DniInvalidoException("El dni no es valido para un extranjero");
+                    throw new DniInvalidoException("La nacionalidad no se condice con el numero de dni");
             }            
         }
 

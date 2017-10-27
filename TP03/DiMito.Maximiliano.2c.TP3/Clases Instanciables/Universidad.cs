@@ -141,19 +141,10 @@ namespace ClasesInstanciables
 
 
         public static Universidad operator +(Universidad g, Alumno a)
-        {
-            Jornada jornadaParaAlumno = null; ;
+        {            
             if (g != a)
             {
-                g.alumnos.Add(a);
-                foreach (Jornada j in g.jornada)
-                {
-                    if (a == j.Clase)
-                    {
-                        jornadaParaAlumno = j;
-                        jornadaParaAlumno += a;
-                    }
-                }
+                g.alumnos.Add(a);                
             }            
              
             return g;
