@@ -1,0 +1,8 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\obj\Debug\_2017_FinalLab2.Properties.Resources.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\obj\Debug\2017-FinalLab2.csproj.GenerateResource.Cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\obj\Debug\_2017_FinalLab2.frmFinal.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\bin\Debug\2017-FinalLab2.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\bin\Debug\2017-FinalLab2.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\bin\Debug\2017-FinalLab2.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\obj\Debug\2017-FinalLab2.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\2017-FinalLab2\obj\Debug\2017-FinalLab2.pdb
