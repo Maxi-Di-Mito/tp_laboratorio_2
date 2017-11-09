@@ -21,12 +21,12 @@ namespace Ejercicio20
             Console.WriteLine("Como vienen");
             mostrar(numeros);
 
-            List<int> listaFiltrada = numeros.FindAll(delegate(int n)
+            List<int> listaFiltrada = numeros.FindAll((int n) =>
             {
                 return n >= 0;
             });
 
-            listaFiltrada.Sort(delegate(int a, int b)
+            listaFiltrada.Sort( (int a, int b) =>
             {
                 return b - a;
             });
@@ -34,12 +34,12 @@ namespace Ejercicio20
             mostrar(listaFiltrada);
 
 
-            listaFiltrada = numeros.FindAll(delegate(int n)
+            listaFiltrada = numeros.FindAll((int n) =>
             {
                 return n < 0;
             });
 
-            listaFiltrada.Sort(delegate(int a, int b)
+            listaFiltrada.Sort( (int a, int b) =>
             {
                 return a - b;
             });

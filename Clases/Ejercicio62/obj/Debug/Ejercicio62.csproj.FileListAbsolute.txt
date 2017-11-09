@@ -1,0 +1,8 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\bin\Debug\Ejercicio62.exe.config
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\obj\Debug\Ejercicio62.Form1.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\obj\Debug\Ejercicio62.Properties.Resources.resources
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\obj\Debug\Ejercicio62.csproj.GenerateResource.Cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\bin\Debug\Ejercicio62.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\bin\Debug\Ejercicio62.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\obj\Debug\Ejercicio62.exe
+D:\Di Mito Maximiliano\tp_laboratorio_2\Clases\Ejercicio62\obj\Debug\Ejercicio62.pdb
