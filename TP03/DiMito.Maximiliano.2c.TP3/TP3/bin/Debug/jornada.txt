@@ -9,4 +9,31 @@ Programacion
 
 
 ALUMNOS:
+NOMBRE COMPLETO: Lopez, Juan
+Nacionalidad: Argentino
+
+LEGAJO NUMERO: 1
+
+Estado de cuenta: Becado
+TOMA CLASE DE Programacion
+
+
+NOMBRE COMPLETO: Gutierrez, José
+Nacionalidad: Argentino
+
+LEGAJO NUMERO: 3
+
+Estado de cuenta: Becado
+TOMA CLASE DE Programacion
+
+
+NOMBRE COMPLETO: Gonzalez, Carlos
+Nacionalidad: Argentino
+
+LEGAJO NUMERO: 5
+
+Estado de cuenta: AlDia
+TOMA CLASE DE Programacion
+
+
 <---------------------------------------->

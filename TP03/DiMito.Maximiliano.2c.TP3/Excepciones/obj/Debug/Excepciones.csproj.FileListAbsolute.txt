@@ -2,3 +2,7 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepcion
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\bin\Debug\Excepciones.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\obj\Debug\Excepciones.dll
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\obj\Debug\Excepciones.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\bin\Debug\Excepciones.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\bin\Debug\Excepciones.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\obj\Debug\Excepciones.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Excepciones\obj\Debug\Excepciones.pdb

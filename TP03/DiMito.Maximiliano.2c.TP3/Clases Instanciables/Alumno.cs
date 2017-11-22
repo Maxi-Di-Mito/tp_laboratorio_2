@@ -30,7 +30,7 @@ namespace ClasesInstanciables
         protected override string ParticiparEnClase()
         {
             StringBuilder builder = new StringBuilder();
-            builder.AppendLine("TOMA CLASE DE");
+            builder.AppendLine("TOMA CLASE DE "+ this._claseQueToma);
 
             return builder.ToString();
         }
@@ -41,6 +41,7 @@ namespace ClasesInstanciables
         {
             StringBuilder builder = new StringBuilder();
             builder.AppendLine(base.MostrarDatos());
+            builder.AppendLine("Estado de cuenta: " + this._estadoCuenta);
             builder.AppendLine(this.ParticiparEnClase());
             return builder.ToString();
         }

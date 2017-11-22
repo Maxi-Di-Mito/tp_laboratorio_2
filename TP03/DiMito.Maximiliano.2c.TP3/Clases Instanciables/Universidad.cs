@@ -85,11 +85,11 @@ namespace ClasesInstanciables
             {
                 builder.AppendLine(j.ToString());
             }
-            builder.AppendLine("ALUMNOS:");
+           /* builder.AppendLine("ALUMNOS:");
             foreach (Alumno a in g.alumnos)
             {
                 builder.AppendLine(a.ToString());
-            }
+            }*/
             return builder.ToString();
         }
 
@@ -130,8 +130,11 @@ namespace ClasesInstanciables
 
         public static bool operator ==(Universidad g, Alumno a)
         {
-            foreach(Alumno l in g.alumnos)
-                if(Object.ReferenceEquals(l,a)) return true;
+            foreach (Alumno l in g.alumnos)
+            {
+                if (Object.ReferenceEquals(l, a)) return true;
+                
+            }
             return false;
         }
         public static bool operator !=(Universidad g, Alumno a)
@@ -145,8 +148,9 @@ namespace ClasesInstanciables
             if (g != a)
             {
                 g.alumnos.Add(a);                
-            }            
-             
+            }else 
+                throw new AlumnoRepetidoException();
+                         
             return g;
         }
 
@@ -154,6 +158,15 @@ namespace ClasesInstanciables
         {
             Profesor p = g == clase;
             Jornada j = new Jornada(clase, p);
+            List<Alumno> losQueLaToman = new List<Alumno>();
+            foreach (Alumno a in g.alumnos)
+            {
+                if (j != a && a == clase)
+                {
+                    j.Alumnos.Add(a);
+                }
+            }
+
             g.jornada.Add(j);
             return g;
         }
