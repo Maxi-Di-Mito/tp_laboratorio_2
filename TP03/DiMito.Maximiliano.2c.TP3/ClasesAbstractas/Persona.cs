@@ -81,14 +81,14 @@ namespace EntidadesAbstractas
                 if (dato >= 1 && dato <= 89999999)
                     return dato;
                 else
-                    throw new DniInvalidoException("La nacionalidad no se condice con el numero de dni");
+                    throw new NacionalidadInvalidaException("La nacionalidad no se condice con el numero de dni");
             }
             else
             {
                 if (dato > 89999999 && dato <= 99999999)
                     return dato;
                 else
-                    throw new DniInvalidoException("La nacionalidad no se condice con el numero de dni");
+                    throw new NacionalidadInvalidaException("La nacionalidad no se condice con el numero de dni");
             }            
         }
 
@@ -96,11 +96,8 @@ namespace EntidadesAbstractas
         {
             int result;
             if (int.TryParse(dato, out result))
-            {
-                if (nacionalidad == ENacionalidad.Argentino)
-                {
-                    return this.ValidarDni(nacionalidad,result);
-                }
+            {                
+                return this.ValidarDni(nacionalidad,result);                
             }
             else
             {
@@ -126,7 +123,7 @@ namespace EntidadesAbstractas
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
-            this._nacionalidad = nacionalidad;
+            this.Nacionalidad = nacionalidad;
         }
 
         public Persona(String nombre, String apellido, int dni, ENacionalidad nacionalidad)

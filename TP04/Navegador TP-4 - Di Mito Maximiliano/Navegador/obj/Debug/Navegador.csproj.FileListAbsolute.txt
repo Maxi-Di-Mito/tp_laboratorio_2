@@ -51,3 +51,17 @@ C:\Users\alumno\Downloads\Navegador TP-4 - AlumnoV2\Navegador TP-4 - AlumnoV2\Na
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Navegador.exe.config
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Navegador.exe.config
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Navegador.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Navegador.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Archivos.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Hilo.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Archivos.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\bin\Debug\Hilo.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.frmHistorial.resources
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.frmWebBrowser.resources
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP04\Navegador TP-4 - Di Mito Maximiliano\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache

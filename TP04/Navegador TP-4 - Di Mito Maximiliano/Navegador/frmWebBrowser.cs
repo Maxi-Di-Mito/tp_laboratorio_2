@@ -92,7 +92,11 @@ namespace Navegador
 
         private void btnIr_Click(object sender, EventArgs e)
         {
-            String url = this.txtUrl.Text;            
+            String url = this.txtUrl.Text;
+            if (!url.StartsWith("http"))
+            {
+                url = "http://" + url;
+            }
             Descargador des = new Descargador(new Uri(url));
             Thread t = new Thread(des.IniciarDescarga);
             des.CambioProgreso += this.ProgresoDescarga;

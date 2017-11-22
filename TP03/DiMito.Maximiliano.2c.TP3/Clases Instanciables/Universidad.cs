@@ -116,7 +116,7 @@ namespace ClasesInstanciables
                 if (p == clase)
                     return p;
             }
-            throw new SinProfesorException();
+            throw new SinProfesorException("No hay profesor para la clase");
         }
         public static Profesor operator !=(Universidad g, EClases clase)
         {
@@ -125,7 +125,7 @@ namespace ClasesInstanciables
                 if (p != clase)
                     return p;
             }
-            throw new SinProfesorException();
+            throw new SinProfesorException("No hay profesor para la clase");
         }
 
         public static bool operator ==(Universidad g, Alumno a)
@@ -133,7 +133,7 @@ namespace ClasesInstanciables
             foreach (Alumno l in g.alumnos)
             {
                 if (Object.ReferenceEquals(l, a)) return true;
-                
+                if (l.DNI == a.DNI) return true;
             }
             return false;
         }
@@ -147,9 +147,9 @@ namespace ClasesInstanciables
         {            
             if (g != a)
             {
-                g.alumnos.Add(a);                
-            }else 
-                throw new AlumnoRepetidoException();
+                g.alumnos.Add(a);
+            }else
+                throw new AlumnoRepetidoException("Alumno repetido");
                          
             return g;
         }

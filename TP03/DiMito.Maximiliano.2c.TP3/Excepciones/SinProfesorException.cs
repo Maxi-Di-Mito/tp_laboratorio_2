@@ -9,5 +9,8 @@ namespace Excepciones
     public class SinProfesorException : Exception
     {
         public SinProfesorException() : base() { }
+
+
+        public SinProfesorException(String m) : base(m) { }
     }
 }
