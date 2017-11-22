@@ -13,3 +13,8 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\Entidades\obj\Debug\Entidades.dll
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\Entidades\obj\Debug\Entidades.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\Entidades\bin\Debug\Entidades.dll
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\Entidades\bin\Debug\Entidades.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\Entidades\bin\Debug\Entidades.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\Entidades\bin\Debug\Entidades.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\Entidades\obj\Debug\Entidades.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\Entidades\obj\Debug\Entidades.pdb

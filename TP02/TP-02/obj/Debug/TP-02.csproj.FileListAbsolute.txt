@@ -22,3 +22,11 @@ D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\TP-02\bin\Debug\TP-02.exe
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\TP-02\bin\Debug\TP-02.pdb
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\TP-02\bin\Debug\Entidades.dll
 D:\Di Mito Maximiliano\tp_laboratorio_2\TP02\TP-02\bin\Debug\Entidades.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\bin\Debug\TP-02.exe.config
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\obj\Debug\TP-02.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\obj\Debug\TP-02.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\bin\Debug\TP-02.exe
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\bin\Debug\TP-02.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\bin\Debug\Entidades.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\bin\Debug\Entidades.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache

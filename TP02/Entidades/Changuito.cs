@@ -107,8 +107,9 @@ namespace Entidades_2017
         {
             foreach (Producto v in c._productos)
             {
-                if (v == p)
+                if (Object.ReferenceEquals(v, p))
                 {
+                    c._productos.Remove(p);
                     break;
                 }
             }
