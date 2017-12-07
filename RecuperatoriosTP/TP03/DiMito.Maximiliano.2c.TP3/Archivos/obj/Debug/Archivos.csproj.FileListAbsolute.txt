@@ -1,0 +1,22 @@
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.pdb
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.dll
+D:\Di Mito Maximiliano\tp_laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.pdb
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.dll
+D:\Maximiliano Di Mito\TP_Laboratorio_2\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\MaxYCele\repos\tp_laboratorio_2\RecuperatoriosTP\TP03\DiMito.Maximiliano.2c.TP3\Archivos\obj\Debug\Archivos.pdb
